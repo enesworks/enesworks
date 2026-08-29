@@ -1,16 +1,58 @@
-## Hi there 👋
+# 👋 Hi, I'm Enes
 
-<!--
-**enesworks/enesworks** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Web Designer, Web Developer and Game Developer.
 
-Here are some ideas to get you started:
+I enjoy learning programming by building real projects, especially web applications and game mods.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 💻 What I Do
+
+- 🌐 Web Design & Web Development
+- 🎮 Game Development
+- 🧩 Game Modding
+- 🔓 Open-Source Projects
+- 📚 Learning new technologies by building projects
+
+## 🛠️ Technologies
+
+- JavaScript
+- PHP
+- Python
+- HTML
+- CSS
+
+## 🚀 Currently Working On
+
+I'm currently developing a large and highly detailed game mod with:
+
+- Custom gameplay systems
+- Unique mechanics
+- Animations
+- Models
+- Story systems
+- Custom UI
+- Immersive game design
+
+## 📂 Projects
+
+I'll be sharing my best projects here, including:
+
+- 🎮 Game Mods
+- 🌐 Web Projects
+- 🐍 Python Projects
+- ⚡ JavaScript Projects
+- 🛠️ Development Tools
+- 🔓 Open-Source Projects
+
+## 🎯 My Goals
+
+I'm continuously improving my skills in:
+
+`Web Development` • `Game Development` • `JavaScript` • `PHP` • `Python` • `UI/UX`
+
+## 📫 Contact
+
+📧 **enesyasatmaz5@gmail.com**
+
+---
+
+⭐ More projects coming soon.
