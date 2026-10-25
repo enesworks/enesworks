@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b12">
+  <meta name="description" content="Development hub for an unofficial, open-source two-player campaign co-op mod project for Cyberpunk 2077.">
+  <title>CyberpunkCoop — EnesWorks</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090b12;--panel:#121622;--line:#2b3142;--text:#f3f5fb;--muted:#a5adc0;--cyan:#62e7df;--pink:#ff5d9e;--amber:#ffc566}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#25203d 0,transparent 42%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+    main{width:min(100% - 32px,980px);margin:auto}.top{padding:28px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;align-items:center}.brand{font-weight:750;letter-spacing:.04em}.brand span{color:var(--cyan)}nav a{color:var(--muted);margin-left:18px;text-decoration:none}nav a:hover{color:var(--cyan)}
+    .hero{padding:92px 0 66px}.eyebrow{color:var(--cyan);font-size:.85rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}.hero h1{font-size:clamp(2.5rem,8vw,5.3rem);line-height:1.02;letter-spacing:-.06em;margin:18px 0 24px;max-width:800px}.hero h1 span{color:var(--pink)}.lead{font-size:1.2rem;color:#c5ccdc;max-width:720px}
+    .notice{border:1px solid #655633;background:#211b10;color:#f3d695;padding:16px 18px;border-radius:12px;margin:28px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin:34px 0 66px}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}.card h2{font-size:1.1rem;margin:0 0 10px}.card p{color:var(--muted);margin:0}.section{padding:24px 0 54px;border-top:1px solid var(--line)}.section h2{font-size:1.7rem}.section p,.section li{color:#c5ccdc}.pill{display:inline-block;border:1px solid var(--line);border-radius:99px;padding:4px 12px;color:var(--cyan);font-size:.85rem}.links a{color:var(--cyan)}footer{padding:24px 0 44px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+    @media(max-width:600px){.top{align-items:flex-start;flex-direction:column}nav a{margin:0 16px 0 0}.hero{padding-top:58px}}
+  </style>
+</head>
+<body>
+  <main>
+    <header class="top">
+      <div class="brand"><span>EW</span> / CYBERPUNKCOOP</div>
+      <nav aria-label="Main navigation"><a href="#project">Project</a><a href="#status">Status</a><a href="privacy.html">Privacy</a><a href="https://github.com/enesworks/enesworks">GitHub</a></nav>
+    </header>
+    <section class="hero" id="project">
+      <div class="eyebrow">An EnesWorks open-source experiment</div>
+      <h1>One campaign.<br><span>Two Vs.</span></h1>
+      <p class="lead">A research-driven attempt to build a two-player, shared-story co-op mod for Cyberpunk 2077 and Phantom Liberty. Each player keeps a personal V while both players follow one agreed campaign state.</p>
+      <div class="notice"><strong>Development status:</strong> This project is not currently a playable multiplayer mod. Online login, Epic invitations, player replication, mission synchronization, and Vortex release are not implemented yet.</div>
+      <span class="pill">Unofficial fan-made project</span>
+    </section>
+    <section class="grid" aria-label="Project principles">
+      <article class="card"><h2>One shared story</h2><p>Story-changing choices must resolve to the same outcome for both players before common progress advances.</p></article>
+      <article class="card"><h2>Two personal Vs</h2><p>Builds, equipment, currency, and ordinary loot stay with each player's own character.</p></article>
+      <article class="card"><h2>Native game behavior</h2><p>The project is designed to preserve Cyberpunk's authored AI and mission behavior rather than replace them with arbitrary rules.</p></article>
+    </section>
+    <section class="section" id="status">
+      <h2>Where development stands</h2>
+      <p>The repository contains early native-plugin, story-coordination, packet-validation, and EOS SDK loading components. They are not connected to a working in-game multiplayer session. No campaign mission is marked supported, and no public Vortex release is available.</p>
+      <p>Epic Account Services is being configured for development. The current application is an unreviewed draft; Epic accounts outside the developer organization cannot authenticate until the brand is reviewed. No claim of Epic approval or CD Projekt Red affiliation is made here.</p>
+      <p class="links">Follow the source and project updates on <a href="https://github.com/enesworks/enesworks">GitHub</a>. Read the current <a href="privacy.html">privacy and data-handling notice</a>.</p>
+    </section>
+    <footer>
+      <p>Cyberpunk 2077 is a game by CD PROJEKT RED. This is an unofficial fan-made project and is not affiliated with or endorsed by CD PROJEKT RED, Epic Games, or NVIDIA.</p>
+      <p>Project maintainer: EnesWorks · Contact: <a href="mailto:enesyasatmaz5@gmail.com" style="color:var(--cyan)">enesyasatmaz5@gmail.com</a></p>
+    </footer>
+  </main>
+</body>
+</html>
